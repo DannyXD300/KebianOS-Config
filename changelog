@@ -12,6 +12,15 @@
         Cambio con configuracion de menu de BOOT para cambiar las entradas y titulo de el menu de BOOT
         NTP preconfigurado para evitar problemas con configuracion de Hora o fecha
         Se añadio el repositorio de KebianOS
+        se añadio calamares-settgins-kebianos, kebianos-meta-codesc y kebianos-archive-keyring
+    } OTRA PERSONA(ejemplo en caso de querer contribuir) {
+
+    }
+
+[vercion 1.1]: 13/11/2026
+    Cambios: Daniel Magon {
+        Se añadio el paquete "kebianos-meta-codecs" para instalar los codecs extra de manera mas facil
+        Se añadio el paquete "calamares-settings-kebianos" para evitar problemas con la configuracion de calamares \ paquete propio y arreglado para usarlo
     } OTRA PERSONA(ejemplo en caso de querer contribuir) {
 
     }
