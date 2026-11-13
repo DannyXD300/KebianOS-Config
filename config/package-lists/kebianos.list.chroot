@@ -52,7 +52,12 @@ unrar
 libavcodec-extra
 ffmpeg
 vlc
-
+kde-config-gtk-style-preview
+libgtk-3-0t64
+libgtk-4-1
+adwaita-icon-theme
+breeze-icon-theme
+dconf-gsettings-backend
 
 #juegos Extras
 
