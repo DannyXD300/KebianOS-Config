@@ -4,7 +4,6 @@ auto
 local
 .lock
 cache
-binary.modified_timestamps
 chroot*
 KebianOS*
-binary
+binary*

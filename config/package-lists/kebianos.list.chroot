@@ -1,13 +1,12 @@
 task-kde-desktop
 zram-tools
-calamares
 earlyoom
 flatpak
 kde-config-flatpak
 plymouth-themes
 plasma-discover-backend-flatpak
 intel-media-va-driver-non-free
-calamares-settings-debian
+calamares-settings-kebianos
 thunderbird
 curl
 #kebianos-meta-codecs
@@ -69,3 +68,4 @@ kshisen
 picmi
 kblocks
 kreversi
+kebianos-archive-keyring
