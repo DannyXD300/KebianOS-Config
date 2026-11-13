@@ -12,6 +12,6 @@
         Cambio con configuracion de menu de BOOT para cambiar las entradas y titulo de el menu de BOOT
         NTP preconfigurado para evitar problemas con configuracion de Hora o fecha
         Se añadio el repositorio de KebianOS
-    } //OTRA PERSONA(ejemplo en caso de querer contribuir) {
+    } OTRA PERSONA(ejemplo en caso de querer contribuir) {
 
     }
