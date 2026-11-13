@@ -1,3 +1,3 @@
 git add .
-git commit -m "0.0.2 Beta"
+git commit -m "1.0"
 git push origin main
