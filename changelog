@@ -17,10 +17,11 @@
 
     }
 
-[vercion 1.1]: 13/11/2026
+[vercion 1.0]: 13/11/2026
     Cambios: Daniel Magon {
         Se añadio el paquete "kebianos-meta-codecs" para instalar los codecs extra de manera mas facil
         Se añadio el paquete "calamares-settings-kebianos" para evitar problemas con la configuracion de calamares \ paquete propio y arreglado para usarlo
+        solo se cambiara de vercion en cambios mas grandes (por ejemplo cambios en el escritorio y/o paquetes.)
     } OTRA PERSONA(ejemplo en caso de querer contribuir) {
 
     }
