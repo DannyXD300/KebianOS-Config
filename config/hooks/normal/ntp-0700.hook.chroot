@@ -3,6 +3,4 @@
 
 apt install systemd-timesyncd -y
 
-timedatectl set-ntp true
-
-
+systemctl enable systemd-timesyncd.service

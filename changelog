@@ -10,3 +10,4 @@
         Sistema de archivos montado para subvolumenes, para copia de seguridad con timeshift \ Crear opcion para cambiar el Home sin perder el subvolumen de @home
         onlyoffice preinstalado para compatibilidad con archivos de office
         Cambio con configuracion de menu de BOOT para cambiar las entradas y titulo de el menu de BOOT
+        NTP preconfigurado para evitar problemas con configuracion de Hora o fecha
