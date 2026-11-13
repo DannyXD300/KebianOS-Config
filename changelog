@@ -1,5 +1,5 @@
 [Vercion 1.0]: 12/11/2026
-    Cambios: Daniel Magon
+    Cambios: Daniel Magon {
         Commit inicial y vercion inicial.
         Instalacion con BTRFT y comprecion ZSTD:4, zram preconfigurada y configuracion de calamares propia. \ Sacar paquete "calamares-settings-kebianos"
         Repositorio de Firefox incluido para manejar la ultima vercion de Firefox
@@ -11,3 +11,6 @@
         onlyoffice preinstalado para compatibilidad con archivos de office
         Cambio con configuracion de menu de BOOT para cambiar las entradas y titulo de el menu de BOOT
         NTP preconfigurado para evitar problemas con configuracion de Hora o fecha
+    } //OTRA PERSONA(ejemplo en caso de querer contribuir) {
+
+    }
