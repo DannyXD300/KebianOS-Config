@@ -1,0 +1,39 @@
+---
+componentName:   kebian
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,580px
+windowPlacement: center
+
+strings:
+    productName:         KebianOS GNU/Linux
+    shortProductName:    KebianOS
+    version:             1.1 pre-release
+    shortVersion:        1.1
+    versionedName:       KebianOS 1.1 Pre-release
+    shortVersionedName:  KebianOS 1.1
+    bootloaderEntryName: KebianOS
+    productUrl:          https://kebianos.github.io/
+    supportUrl:          https://kebianos.github.io/
+    knownIssuesUrl:      https://kebianos.github.io/
+    releaseNotesUrl:     https://kebianos.github.io/
+    donateUrl:           https://kebianos.github.io/
+
+sidebar: widget
+navigation: widget
+
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   SidebarBackground:    "#12387d"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#fbfbfb"
+   SidebarBackgroundCurrent: "#08112c"
+
+slideshowAPI: 2

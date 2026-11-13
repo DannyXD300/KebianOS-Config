@@ -1,0 +1,12 @@
+label live-@FLAVOUR@
+	menu label ^Start KebianOS(Normal)
+	menu default
+	linux @LINUX@
+	initrd @INITRD@
+	append @APPEND_LIVE@
+
+label live-@FLAVOUR@-failsafe
+	menu label Start KebianOS (Safe Mode / Failsafe)
+	linux @LINUX@
+	initrd @INITRD@
+	append @APPEND_LIVE_FAILSAFE@

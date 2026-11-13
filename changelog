@@ -1,0 +1,12 @@
+[Vercion 1.0]: 12/11/2026
+    Cambios: Daniel Magon
+        Commit inicial y vercion inicial.
+        Instalacion con BTRFT y comprecion ZSTD:4, zram preconfigurada y configuracion de calamares propia. \ Sacar paquete "calamares-settings-kebianos"
+        Repositorio de Firefox incluido para manejar la ultima vercion de Firefox
+        Applicaciones extras para mejorar la experiencia
+        f3d prinstalado para miniatura de archivos de objetos 3D
+        VLC para codecs extra y visur de videos predeterminado
+        Codecs Extra para mejorar la experiencia de el usuario y visualizion \ Crear el "kebianos-meta-codecs"
+        Sistema de archivos montado para subvolumenes, para copia de seguridad con timeshift \ Crear opcion para cambiar el Home sin perder el subvolumen de @home
+        onlyoffice preinstalado para compatibilidad con archivos de office
+        Cambio con configuracion de menu de BOOT para cambiar las entradas y titulo de el menu de BOOT

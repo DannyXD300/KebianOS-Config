@@ -1,0 +1,9 @@
+{
+  "DefaultSearchProviderEnabled": true,
+  "DefaultSearchProviderName": "Ecosia",
+  "DefaultSearchProviderSearchURL": "https://www.ecosia.org/search?q={searchTerms}",
+  "BraveRewardsDisabled": true,
+  "BraveWalletDisabled": true,
+  "BraveAIChatEnabled": false,
+  "BraveShieldsDisabledForUrls": ["https://www.ecosia.org/*"]
+}

@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+apt remove --autoremove --purge -y konqueror akregator kmail korganizer kaddressbook okular gimp libreoffice-common kontrast imagemagick-7-common firefox-esr dragonplayer
+apt clean 
+
+

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+set -e
+
+
+echo Instalando extras
+
+curl -fsSL https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes -o /usr/share/keyrings/oracle-virtualbox-2016.gpg
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian trixie contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+
+
+# 1. Carpeta de claves
+sudo install -d -m 0755 /etc/apt/keyrings
+
+# 2. Clave de firma de Mozilla
+wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
+
+# 3. Repositorio
+echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main" | sudo tee /etc/apt/sources.list.d/mozilla.list > /dev/null
+
+# 4. Prioridad para que gane sobre firefox-esr de Debian
+sudo tee /etc/apt/preferences.d/mozilla > /dev/null <<'EOF'
+Package: *
+Pin: origin packages.mozilla.org
+Pin-Priority: 1000
+EOF
+apt update
+apt install firefox -y
