@@ -9,5 +9,6 @@ lb config \
   --iso-application "KebianOS" \
   --iso-preparer "KebianOS Team" \
   --iso-publisher "KebianOS Team: https://kebianos.github.io/" \
-  --image-name "KebianOS"
+  --image-name "KebianOS" \
+  --bootappend-live "boot=live components quiet splash"
 lb build
