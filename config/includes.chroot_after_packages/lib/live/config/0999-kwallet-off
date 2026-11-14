@@ -1,0 +1,32 @@
+#!/bin/sh
+
+## live-config(7) - System Configuration Components
+## Desactiva la Cartera de KDE solo en la sesion live de KebianOS.
+
+. /lib/live/config.sh
+
+Init ()
+{
+	# Si ya se ejecuto este componente, no hacer nada
+	if component_was_executed "kwallet-off"
+	then
+		exit 0
+	fi
+
+	echo -n " kwallet-off"
+}
+
+Config ()
+{
+	# Se escribe en el sistema en ejecucion (overlay del live), no en el
+	# squashfs, asi que Calamares no lo copia al sistema instalado.
+	cat > /etc/xdg/kwalletrc <<KWEOF
+[Wallet]
+Enabled=false
+First Use=false
+KWEOF
+	chmod 644 /etc/xdg/kwalletrc
+
+	# Crear archivo de estado
+	touch /var/lib/live/config/kwallet-off
+}

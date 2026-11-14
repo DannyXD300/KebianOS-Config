@@ -15,4 +15,4 @@ lb config \
   --image-name "KebianOS" \
   --bootappend-live "boot=live components quiet splash"
 
-lb build
+lb build 2>&1 | tee logs/build-$(date +%Y-%m-%d_%H-%M-%S).log

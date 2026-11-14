@@ -25,3 +25,10 @@
     } OTRA PERSONA(ejemplo en caso de querer contribuir) {
 
     }
+
+[Vercion 1.1] 14/11/206 
+    Cambios: Daniel Magon {
+        Se añadio los paquetes kebianos-defaults para la preconfiguracion de algunas cosas(Actualizaciones desatendidas y opciones de configuracion preconfiguradas)
+        se añadio el archvio de desactivacion de kwallet para el live para no molestar al conectarse a wifi 
+        actualizacion de repositorio y paquete de instalacion de el repositorio para kebianos
+    }

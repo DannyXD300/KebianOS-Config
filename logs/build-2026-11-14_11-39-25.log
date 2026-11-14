@@ -1,0 +1,14 @@
+[2026-11-14 11:39:25] lb build 
+P: live-build 20250505+deb13u1
+P: Building for a debian/trixie/amd64 system
+[2026-11-14 11:39:25] lb bootstrap 
+P: Setting up clean exit handler
+[2026-11-14 11:39:25] lb bootstrap_cache restore
+[2026-11-14 11:39:25] lb bootstrap_debootstrap 
+P: Begin bootstrapping system...
+P: If the following stage fails, the most likely cause of the problem is with your mirror configuration or a caching proxy.
+P: Running debootstrap (download-only)...
+I: Retrieving InRelease 
+I: Checking Release signature
+I: Valid Release signature
+I: Retrieving Packages 
